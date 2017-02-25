@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'plazaregular';
+    src: url('29849_plazaitc-normal-webfont.woff2') format('woff2'),
+         url('29849_plazaitc-normal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.container-fluid {
+	height: 100px;
+}
+.navbar-brand{
+	font-family: 'plazaregular', "times new roman";
+	font-size: 30px;
+}
