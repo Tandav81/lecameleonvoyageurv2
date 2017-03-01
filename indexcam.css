@@ -1,12 +1,17 @@
+body {
+	background: #99CD2C;
+}
+
 h2 {
 	font-family: 'Lobster', cursive;
 	color: #f48e20;
+	/*bordure police*/
 	text-shadow: #a0cc3b 1px 1px, #a0cc3b -1px 1px, #a0cc3b -1px -1px, #a0cc3b 1px -1px;
 	text-align: center;
 }
 
 .navbar-header {
-	height: 200px;
+	height: 100px;
 }
 .navbar-brand{
 	font-family: 'plazaregular', "times new roman";
@@ -20,8 +25,7 @@ h2 {
 	font-size: 20px;
 }
 .carousel-inner{
-	padding-left: 200px;
-	padding-top: 200px;
+	padding-top: 120px;
 }
 @media all and (max-width: 450px){
 	#map{
@@ -31,10 +35,27 @@ h2 {
 		display: none;
 	}
 	.carousel-inner{
-		padding-left: 0px;
+		padding-left: auto;
+		padding-right: auto;
 	}
 }
 .thumbnail{
-	text-align: center;
-	border: 1px solid black;
+		text-align: center;
+		border: 0px;
+		background: none;
+}
+
+img{
+	width: 75%;
+}
+
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: none;
+}
+.carousel-control.left {
+    left: 0;
+    right: : auto;
+    background-image: none;
 }
