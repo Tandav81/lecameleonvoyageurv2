@@ -1,42 +1,51 @@
+body {
+	background: #99CD2C;
+}
+
 h2 {
 	font-family: 'Lobster', cursive;
 	color: #f48e20;
+	/*bordure police*/
 	text-shadow: #a0cc3b 1px 1px, #a0cc3b -1px 1px, #a0cc3b -1px -1px, #a0cc3b 1px -1px;
 	text-align: center;
 }
 
-.navbar-header {
-	height: 200px;
-}
 .navbar-brand{
-	font-family: 'plazaregular', "times new roman";
+	font-family: 'Lobster', "times new roman";
 	font-size: 40px;
 	padding-top: 30px;
 }
 .navbar{
-	width: 100%;
-	position: fixed;
-	z-index: 9999;
 	font-size: 20px;
+	height: 100px;
 }
-.carousel-inner{
-	padding-left: 200px;
-	padding-top: 200px;
+
+body { 
+	padding-top: 120px; 
+	background: #99CD2C;
 }
+
 @media all and (max-width: 450px){
 	#map{
 		display: none;
 	}
-	#logo{
-		display: none;
-	}
-	.carousel-inner{
-		padding-left: 0px;
-	}
 }
 .thumbnail{
 	text-align: center;
-	border: 1px solid black;
+	border: 0px;
+	background: none;
+}
+
+
+.carousel-control.right {
+
+    left: auto;
+    background-image: none;
+}
+.carousel-control.left {
+
+    right: : auto;
+    background-image: none;
 }
 
 .item li{
