@@ -20,7 +20,7 @@ h2 {
 	font-size: 20px;
 }
 .carousel-inner{
-	padding-left: 120px;
+	padding-left: 200px;
 	padding-top: 200px;
 }
 @media all and (max-width: 450px){
@@ -33,4 +33,8 @@ h2 {
 	.carousel-inner{
 		padding-left: 0px;
 	}
+}
+.thumbnail{
+	text-align: center;
+	border: 1px solid black;
 }
