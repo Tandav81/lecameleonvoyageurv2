@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'plazaregular';
+    src: url('29849_plazaitc-normal-webfont.woff2') format('woff2'),
+         url('29849_plazaitc-normal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2 {
+	font-family: 'Lobster', cursive;
+	color: #f48e20;
+	text-shadow: #a0cc3b 1px 1px, #a0cc3b -1px 1px, #a0cc3b -1px -1px, #a0cc3b 1px -1px;
+	text-align: center;
+}
+
+.navbar-header {
+	height: 100px;
+}
+.navbar-brand{
+	font-family: 'plazaregular', "times new roman";
+	font-size: 40px;
+	padding-top: 30px;
+}
+.navbar{
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
+	font-size: 20px;
+}
+#carousel-example-generic{
+	padding-top: 100px;
+	padding-left: 250px;
+}
