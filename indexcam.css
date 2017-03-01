@@ -10,11 +10,8 @@ h2 {
 	text-align: center;
 }
 
-.navbar-header {
-	height: 100px;
-}
 .navbar-brand{
-	font-family: 'plazaregular', "times new roman";
+	font-family: 'Lobster', "times new roman";
 	font-size: 40px;
 	padding-top: 30px;
 }
@@ -24,9 +21,13 @@ h2 {
 	z-index: 9999;
 	font-size: 20px;
 }
-.carousel-inner{
-	padding-top: 120px;
+
+body { 
+	padding-top: 120px; 
+	background: #99CD2C;
 }
+
+
 @media all and (max-width: 450px){
 	#map{
 		display: none;
@@ -34,11 +35,8 @@ h2 {
 	#logo{
 		display: none;
 	}
-	.carousel-inner{
-		padding-left: auto;
-		padding-right: auto;
-	}
 }
+
 .thumbnail{
 		text-align: center;
 		border: 0px;
@@ -49,6 +47,10 @@ img{
 	width: 75%;
 }
 
+
+.carousel-inner{
+	padding-top: 120px;
+}
 .carousel-control.right {
     right: 0;
     left: auto;
