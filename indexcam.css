@@ -16,10 +16,8 @@ h2 {
 	padding-top: 30px;
 }
 .navbar{
-	width: 100%;
-	position: fixed;
-	z-index: 9999;
 	font-size: 20px;
+	height: 100px;
 }
 
 body { 
@@ -27,30 +25,18 @@ body {
 	background: #99CD2C;
 }
 
-
 @media all and (max-width: 450px){
 	#map{
 		display: none;
 	}
-	#logo{
-		display: none;
-	}
 }
-
 .thumbnail{
 		text-align: center;
 		border: 0px;
 		background: none;
 }
 
-img{
-	width: 75%;
-}
 
-
-.carousel-inner{
-	padding-top: 120px;
-}
 .carousel-control.right {
     right: 0;
     left: auto;
