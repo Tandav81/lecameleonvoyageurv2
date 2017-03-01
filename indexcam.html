@@ -40,7 +40,7 @@
       </nav>
     </header>
      	<!-- Carousel -->
-        <div id="carousel-example-generic" class="carousel slide">
+        <div id="carousel-example-generic" class="carousel slide" data-interval="30000">
   		<!-- Indicators -->
               <ol class="carousel-indicators">
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -51,6 +51,13 @@
          <div class="carousel-inner" role="listbox">
         <!-- Horaires slide -->       
                 <div class="item active" >
+                     <div class="row">
+			            <div class="col-xs-12 col-md-12 col-lg-12">
+			              <a class="thumbnail">
+			              <p>Où sommes nous?</p>
+			              </a>
+			            </div>
+			         </div>
                      <div class="row">
 			            <div class="col-xs-12 col-md-6 col-lg-6">
 			              <a class="thumbnail">
@@ -79,18 +86,10 @@
 			              </a>
 			            </div>
 			        </div>
-			        <div class="row">
-			            <div class="col-xs-12 col-md-12 col-lg-12">
-			              <a class="thumbnail">
-			              <p>Samedi et Dimanche</p>
-			              <p>Veuillez nous appeler pour une réservation</p>
-			              </a>
-			            </div>
-			        </div>
-			        <div class="row">
+			      	<div class="row">
 			            <div class="col-md-12 col-lg-12">
 			              <a class="thumbnail">
-			              <iframe width="90%" height="400px" frameBorder="0" src="http://umap.openstreetmap.fr/fr/map/carte-sans-nom_130369?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe><p><a href="http://umap.openstreetmap.fr/fr/map/carte-sans-nom_130369">Voir en plein écran</a></p>
+			              <iframe id="map" width="80%" height="400px" frameBorder="0" src="http://umap.openstreetmap.fr/fr/map/carte-sans-nom_130369?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe><p><a style="padding-left: 300px;" href="http://umap.openstreetmap.fr/fr/map/carte-sans-nom_130369">Voir en plein écran</a></p>
 			              </a>
 			            </div>
 			        </div>
@@ -139,8 +138,9 @@
                 </div>
 
 		<!--carte-->
-      <div class="item">
-		    <h2>La carte</h2>
+
+      <div class="item" style="padding:10% 10%; font-size: 20px;">
+		    
         <div class="row">
           
           <div class="col-xs-12 col-md-6">
