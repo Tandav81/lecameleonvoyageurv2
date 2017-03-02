@@ -19,23 +19,24 @@ body {
 	background: #99CD2C;
 }
 
-@media all and (max-width: 450px){
+@media all and (max-width: 650px){
 	#map{
 		display: none;
 	}
 	#logo{
 		display: none;
 	}
+<<<<<<< HEAD
 	.carousel-inner{
 		padding-left: 0px;
 	}
 
 /* Retirer les bordures des images */
-}
 .thumbnail{
 	text-align: center;
 	border: 0px;
 	background: none;
+	font-size: 22px;
 }
 
 /* Retirer les ombres latérales */
