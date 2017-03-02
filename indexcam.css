@@ -1,17 +1,12 @@
-body {
-	background: #99CD2C;
-}
-
-h2 {
+h1 {
 	font-family: 'Lobster', cursive;
-	color: #f48e20;
-	/*bordure police*/
-	text-shadow: #a0cc3b 1px 1px, #a0cc3b -1px 1px, #a0cc3b -1px -1px, #a0cc3b 1px -1px;
+	color: #85411D;
+	text-shadow: #FF8100 1px 1px, #FF8100 -1px 1px, #FF8100 -1px -1px, #FF8100 1px -1px;
 	text-align: center;
 }
 
 .navbar-brand{
-	font-family: 'Lobster', "times new roman";
+	font-family: 'lobster', "times new roman";
 	font-size: 40px;
 	padding-top: 30px;
 }
@@ -19,9 +14,8 @@ h2 {
 	font-size: 20px;
 	height: 100px;
 }
-
 body { 
-	padding-top: 120px; 
+	padding-top: 120px;
 	background: #99CD2C;
 }
 
@@ -32,7 +26,12 @@ body {
 	#logo{
 		display: none;
 	}
-}
+
+	.carousel-inner{
+		padding-left: 0px;
+	}
+
+/* Retirer les bordures des images */
 .thumbnail{
 	text-align: center;
 	border: 0px;
@@ -40,14 +39,14 @@ body {
 	font-size: 22px;
 }
 
-
-.carousel-control.right {
-
-    left: auto;
-    background-image: none;
-}
+/* Retirer les ombres latérales */
 .carousel-control.left {
-
-    right: : auto;
     background-image: none;
+    filter: none;
+    background-repeat: none;
+}
+.carousel-control.right {
+    background-image: none;
+    filter: none;
+    background-repeat: none;
 }
