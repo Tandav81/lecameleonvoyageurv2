@@ -26,7 +26,7 @@ body {
 	#logo{
 		display: none;
 	}
-<<<<<<< HEAD
+
 	.carousel-inner{
 		padding-left: 0px;
 	}
@@ -45,13 +45,8 @@ body {
     filter: none;
     background-repeat: none;
 }
-
 .carousel-control.right {
     background-image: none;
     filter: none;
     background-repeat: none;
-}
-
-.item li {
-	list-style-type: none;
 }
