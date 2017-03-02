@@ -1,7 +1,7 @@
-h2 {
+h1 {
 	font-family: 'Lobster', cursive;
-	color: #f48e20;
-	text-shadow: #a0cc3b 1px 1px, #a0cc3b -1px 1px, #a0cc3b -1px -1px, #a0cc3b 1px -1px;
+	color: #85411D;
+	text-shadow: #FF8100 1px 1px, #FF8100 -1px 1px, #FF8100 -1px -1px, #FF8100 1px -1px;
 	text-align: center;
 }
 
@@ -15,7 +15,8 @@ h2 {
 	height: 100px;
 }
 body { 
-	padding-top: 120px; 
+	padding-top: 120px;
+	background: #99CD2C;
 }
 
 @media all and (max-width: 450px){
@@ -28,10 +29,13 @@ body {
 	.carousel-inner{
 		padding-left: 0px;
 	}
+
+/* Retirer les bordures des images */
 }
 .thumbnail{
 	text-align: center;
-	border: 1px solid black;
+	border: 0px;
+	background: none;
 }
 
 /* Retirer les ombres latérales */
@@ -45,4 +49,8 @@ body {
     background-image: none;
     filter: none;
     background-repeat: none;
+}
+
+.item li {
+	list-style-type: none;
 }
