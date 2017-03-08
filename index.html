@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Le Caméléon Voyageur</title>
+    <link rel="shortcut icon" href="Images/LOGO_MD.resized.png" type="image/x-icon" />
+    <link href="index.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+   <header>
+     <nav class="navbar navbar-default navbar-fixed">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="https://fr-fr.facebook.com/lecameleonvoyageur/">
+              <img class="camel" alt="Logo cameleon" src="Images/LOGO_MD.png">
+            </a>
+
+          </div>
+          <h1>Le Caméléon Voyageur  </h1>
+          </div>
+          
+      </nav>
+      <div class="barre">
+        <ul class="nav nav-tabs nav-justified">
+          <li role="presentation" class="active"><a data-target="#carousel-example-generic" data-slide-to="0" class="active">Home</a></li>
+          <li role="presentation"><a data-target="#carousel-example-generic" data-slide-to="1">Bagels</a></li>
+          <li role="presentation"><a data-target="#carousel-example-generic" data-slide-to="2">Menu</a></li>
+          <li role="presentation"><a data-target="#carousel-example-generic" data-slide-to="3">Qui sommes nous?</a></li>
+        </ul>
+      </div>
+   </header>
+
+      <div id="carousel-example-generic" class="carousel slide" data-interval="30000">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          
+          <div class="item active bienvenida" >                   
+             <div class="row">
+                  <div class="col-lg-offset-4 col-md-offset-3 col-md-6 col-lg-4">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                          <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Lundi et Mercredi
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                          <div class="panel-body">
+                            <p>LE LAB'O : 12:00 à 14:00</p>
+                            <a href="https://goo.gl/maps/4fHE2kxHsmL2"> Avenue du Champ de Mars, 45074 Orléans Cedex 2</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                          <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Mardi 
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                          <div class="panel-body">
+                            <p>V&B Ingré : 12:00 à 14:00</p>
+                            <a href="https://goo.gl/maps/w7yhzwZPTh52">15 Rue Pierre et Marie Curie, 45140 Ingré</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                          <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Jeudi
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                          <div class="panel-body">
+                            <p>Shiseido</p>
+                            <a href="https://goo.gl/maps/ws7FoKKMxx62">Avenue Charles de Gaulle, 45140 Ormes</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFour">
+                          <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              Vendredi, Samedi et Dimanche
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                          <div class="panel-body">
+                            <p>Merci de nous contacter si besoin de notre présence </p>
+                            <p>pour un évenement!</p>
+                            <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+                            <a href="tel:+33669154308">06-69-15-43-08</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+               </div>
+                     
+                <div class="row">
+                  <div class="col-lg-offset-3 col-lg-6">
+                    <a class="thumbnail">
+                    
+                    <iframe id="map" width="100%" height="300px" frameBorder="1" src="http://umap.openstreetmap.fr/fr/map/carte-sans-nom_130369?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe>
+                    </a>
+                  </div>
+              </div>
+            </div>
+
+<!-- end of first slide -->
+          <div class="item slidebagel"> <!-- debut bagels -->
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h1>Tous nos bagels sont à 6.60 €</h1>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                      <a href="#" class="thumbnail">
+                        <img class="bagels" src="Images/BAGELS/BAGEL1.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                      <a href="#" class="thumbnail">
+                        <img class="bagels" src="Images/BAGELS/BAGEL2.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                      <a href="#" class="thumbnail">
+                        <img class="bagels" src="Images/BAGELS/BAGEL3.jpg" alt="...">
+                      </a>
+                    </div>  
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                      <a href="#" class="thumbnail">
+                        <img class="bagels" src="Images/BAGELS/BAGEL4.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                      <a href="#" class="thumbnail">
+                        <img class="bagels" src="Images/BAGELS/BAGEL4.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                      <a href="#" class="thumbnail">
+                        <img class="bagels" src="Images/BAGELS/BAGEL4.jpg" alt="...">
+                      </a>
+                    </div>
+                </div> 
+              </div>
+                <!-- end of bagels -->
+            <div class="item menu">
+              <div class="row">
+                <div class="col-lg-offset-2 col-lg-3 col-md-offset-2 col-md-3 col-sm-offset-2 col-sm-6 col-xs-9">
+                  <div class="entrees">
+                  <h3>Rolls, salades & co</h3>
+                    <ul>
+                      <li><b>Chicken Rolls</b></li>
+                      <li><i>poulet teriyaki, avocat</i></li>
+                      <li><i>concombre</i></li>
+                      <li><b>Thon thon Rolls</b></li>
+                      <li><i>thonade, avocat, concombre</i></li>
+                      <li><b>Rock'n Rolls</b></li>
+                      <li><i>saumon, avocat, concombre</i></li>
+                      <li><b>Kimbap</b></li>
+                      <li><i>thonade, carotte, concombre</i></li>
+                      <li><i>oeuf, radis</i></li>
+                      <li><b>Mandu</b></li>
+                      <li><i>ravioli coréen (x6)</i></li>
+                      <li><b>Petite salade</b></li>
+                      <li><i>coleslaw, grecque</i></li>
+                      <li><b>Grande salade</b></li>
+                      <li><i>coleslaw, grecque</i></li>
+                      <li><b>Chips</b></li>
+                    </ul>
+                  </div>
+                  <div class="boissons">
+                  <h3>Boissons</h3>
+                    <ul>
+                      <li><b>Sodas</b></li>
+                      <li><b>Eau</b></li>
+                      <li><b>Expresso</b></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-4 col-xs-3">
+                  <div class="prixent">
+                  <h3>€</h3>
+                    <ul>
+                      <li>4.50</li>
+                      <li>.</li>
+                      <li>.</li>
+                      <li>5.00</li>
+                      <li>.</li>
+                      <li>5.00</li>
+                      <li>.</li>
+                      <li>6.60</li>
+                      <li>.</li>
+                      <li>.</li>
+                      <li>2.50</li>
+                      <li>.</li>
+                      <li>2.00</li>
+                      <li>.</li>
+                      <li>4.00</li>
+                      <li>.</li>
+                      <li>1.50</li>
+                    </ul>
+                  </div>
+                  <div class="prixboi">
+                    <h3>€</h3>
+                    <ul>
+                      <li>1.50</li>
+                      <li>1.50</li>
+                      <li>1.50</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-offset-1 col-lg-2 col-md-offset-1 col-md-2 col-sm-offset-2 col-sm-6 col-xs-9">
+                  <div class="dessert">
+                  <h3>Desserts</h3>
+                    <ul>
+                      <li><b>Cheesecake maison</b></li>
+                      <li><b>Muffin</b></li>
+                      <li><i>blueberry, pépites de chocolats</i></li>
+                      <li><b>Cookies</b></li>
+                      <li><i>pépites de chocolats, tout chocolats</i></li>
+                    </ul>
+                  </div>
+                  <div class="formule">
+                  <h3>Formules</h3>
+                    <ul>
+                      <li><b>La faim de la route</b></li>
+                      <li><i>Bagel ou Kimbap + boisson</i></li>
+                      <li><b>La faim du voyage</b></li>
+                      <li><i>Bagel + petite salade ou + boisson</i></li>
+                      <li><b>Une faim de loup</b></li>
+                      <li><i>Bagel + dessert + boisson</i></li>
+                      <li><b>La faim du monde</b></li>
+                      <li><i>Bagel + petite salade ou chips </i></li>
+                      <li><i>+ dessert + boisson</i></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-lg-1 col-md-1 col-sm-4 col-xs-3">
+                  <div class="prixdes">
+                  <h3>€</h3>
+                    <ul>
+                      <li>3.50</li>
+                      <li>2.70</li>
+                      <li>.</li>
+                      <li>2.50</li>
+                      <li>.</li>
+                    </ul>
+                  </div>
+                  <div class="prixfor">
+                  <h3>€</h3>
+                    <ul>
+                      <li>7.60</li>
+                      <li>.</li>
+                      <li>8.60</li>
+                      <li>.</li>
+                      <li>10.00</li>
+                      <li>.</li>
+                      <li>11.50</li>
+                      <li>.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div> 
+              <div class="row download">
+                  <div class="col-lg-offset-3 col-lg-6 col-md-offset-2 col-md-8">
+                      <a  href="https://scontent-fra3-1.xx.fbcdn.net/v/t31.0-8/10575268_921036594576571_5164033498757752984_o.jpg?oh=d605f9507efef4840c09da8d2efd0a8b&oe=592E1AD8" download="Menu">Télécharger le menu</a>
+                  </div>
+              </div>         
+            </div>   <!-- end of menu -->
+
+
+          <div class="item">
+            <img src="Images/camion2.jpg" alt="...">
+            <div class="carousel-caption">
+              ...
+            </div>
+          </div>
+          ...
+        </div>
+      </div>
+
+   <footer>
+      <div class="logoz">
+          <img class="logofa" src="Images/facebook-icone-5610-64.png" alt="logo facebook">
+          <img class="logotw" src="Images/twitter-icone-5811-64 (1).png" alt="logo twitter">
+          <img class="logorss" src="Images/rss-icone-8769-64.png" alt="logo rss">
+      </div>
+   </footer>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

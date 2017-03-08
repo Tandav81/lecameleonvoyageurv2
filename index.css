@@ -1,0 +1,104 @@
+.container-fluid{
+	height: 200px;
+	background-image: url('Images/backbagel.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+.container-fluid h1{
+	font-size: 60px;
+	font-family: 'Lobster', cursive;
+	text-shadow: #FF8100 1px 1px, #FF8100 -1px 1px, #FF8100 -1px -1px, #FF8100 1px -1px;
+	color: black;
+}
+
+.logofa {
+	position: absolute;
+	top: 120px;
+	right:50px;
+}
+.logotw {
+	position: absolute;
+	top: 120px;
+	right:130px;
+}
+.logorss {
+	position: absolute;
+	top: 120px;
+	right:210px;
+}
+@media all and (max-width: 760px){
+	.navbar .camel{
+		display: none;
+		}
+	.logofa {
+		position: absolute;
+		top: 2px;
+		right:10px;
+	}
+	.logotw {
+		position: absolute;
+		top: 2px;
+		right:80px;
+	}
+	.logorss {
+		position: absolute;
+		top: 2px;
+		right:150px;
+	}
+	.container-fluid h1{
+		padding-top: 30px;
+		font-size: 30px;
+		font-family: 'Lobster', cursive;
+		text-shadow: #FF8100 1px 1px, #FF8100 -1px 1px, #FF8100 -1px -1px, #FF8100 1px -1px;
+		color: black;
+	}
+	.container-fluid{
+		height: 150px;
+	}
+	#map{
+		display:none !important;
+	}
+	.barre li{
+		margin-top: -20px;
+		margin-bottom: -20px;
+	}
+}
+.barre li{
+	font-size: 20px;
+	text-shadow: #FF8100 1px 1px, #FF8100 -1px 1px, #FF8100 -1px -1px, #FF8100 1px -1px;
+	font-family: 'Lobster', cursive;
+}
+.barre ul{
+	margin-top: -20px;
+}
+#accordion{
+	font-family: 'Lobster', cursive;
+	padding-top: 20px;
+	text-align: center;
+}
+.slidebagel h1{
+	font-size: 30px;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	text-shadow: #FF8100 1px 1px, #FF8100 -1px 1px, #FF8100 -1px -1px, #FF8100 1px -1px;
+}
+.menu h2{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Lobster', cursive;
+	text-shadow: #FF8100 1px 1px, #FF8100 -1px 1px, #FF8100 -1px -1px, #FF8100 1px -1px;
+}
+.menu h3{
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Lobster', cursive;
+	text-shadow: #FF8100 1px 1px, #FF8100 -1px 1px, #FF8100 -1px -1px, #FF8100 1px -1px;
+}
+.menu li{
+	margin-left: -15px;
+	list-style-type: none;
+}
+.download{
+	text-align: center;
+}
