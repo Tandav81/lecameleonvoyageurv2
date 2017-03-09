@@ -1,6 +1,6 @@
 <?php
     define("SERVER", "localhost");
     define("USER", "root");
-    define("PASS", 'Wld');
-    define("DB", "cameleon");
+    define("PASS", '$ubW1lder');
+    define("DB", "le_cameleon_voyageur");
 ?>
