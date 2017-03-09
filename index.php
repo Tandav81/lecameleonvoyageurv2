@@ -92,7 +92,7 @@ include 'connect.php';
                       </a>
                     </div>
                 </div> 
-              </div>
+          </div>
                 <!-- end of bagels -->
             <?php
             include 'menu.php';
