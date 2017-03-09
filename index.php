@@ -100,9 +100,11 @@ include 'connect.php';
 
 
           <div class="item">
-            <img src="Images/camion2.jpg" alt="...">
-            <div class="carousel-caption">
-            </div>
+              <div class="row">
+                <img src="Images/camion2.jpg" alt="...">
+                <div class="carousel-caption">
+                </div>
+              </div>
           </div>
         </div>
       </div>

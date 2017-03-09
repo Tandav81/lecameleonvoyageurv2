@@ -17,7 +17,7 @@
                 echo '</div>';
             }
 
-            echo '<div style="float:left;width:250px;position:relative;margin:0 10px 0 0">';
+            echo '<div style="float:left;width:300px;position:relative;margin:0 10px 0 0">';
 
             echo '<h3>'.$datam['categorie'].'</h3>';
             echo '<ul>'.$donnee.'</ul>';
