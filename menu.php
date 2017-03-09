@@ -1,7 +1,6 @@
 <div class="item menu">
     <div class="row">
 
-
 <?php
     $reqmenu = mysqli_query($bdd,'SELECT * FROM plat ORDER BY ordre');
     $datam=mysqli_fetch_assoc($reqmenu);
@@ -24,7 +23,7 @@
         }
         $categ=$datam['categorie'];
 
-        echo '<p>'.$datam['dish'].'<span style="position:absolute;right:0;">'.$datam['prix'].'</span></p>';
+        echo '<p>'.$datam['dish'].'<span style="position:absolute;right:0;">'.$datam['prix'].' €'.'</span></p>';
         echo '<p>'.$datam['compo'].'</p>';
         $i++;
     }
