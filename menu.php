@@ -1,5 +1,3 @@
-<div class="item menu">
-    <div class="row">
 
 <?php
     $reqmenu = mysqli_query($bdd,'SELECT * FROM plat ORDER BY ordre');
@@ -16,15 +14,15 @@
                 echo '</div>';
             }
 
-            echo '<div style="float:left;width:300px;position:relative;margin:0 10px 0 0">';
+            echo '<div class="col-lg-3 col-sm-6 col-md-6">';
 
             echo '<h3>'.$datam['categorie'].'</h3>';
             echo '<ul>'.$donnee.'</ul>';
         }
         $categ=$datam['categorie'];
 
-        echo '<p>'.$datam['dish'].'<span style="position:absolute;right:0;">'.$datam['prix'].' €'.'</span></p>';
-        echo '<p>'.$datam['compo'].'</p>';
+        echo '<p><b>'.$datam['dish'].'</b><span style="position:absolute;right:30px;">'.$datam['prix'].' €'.'</span></p>';
+        echo '<p><i>'.$datam['compo'].'</i></p>';
         $i++;
     }
 
@@ -32,6 +30,3 @@
 ?>
     </div>
 
-
-    </div>
-</div>

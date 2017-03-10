@@ -11,7 +11,6 @@
 	text-shadow: #FF8100 1px 1px, #FF8100 -1px 1px, #FF8100 -1px -1px, #FF8100 1px -1px;
 	color: black;
 }
-
 .logofa {
 	position: absolute;
 	top: 120px;
@@ -96,9 +95,32 @@
 	text-shadow: #FF8100 1px 1px, #FF8100 -1px 1px, #FF8100 -1px -1px, #FF8100 1px -1px;
 }
 .menu li{
-	margin-left: -15px;
+	margin-left: -10px;
 	list-style-type: none;
 }
 .download{
 	text-align: center;
+}
+.slidebagel{
+	height:100%;
+    background-image: url("Images/bageltranspa.png");
+    background-position: center;
+	background-repeat: no-repeat;
+}
+.menu{
+	height:100%;
+	background-image: url("Images/bageltranspa.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.presentation{
+	height:100%;
+	background-image: url("Images/bageltranspa.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+footer .haut{
+	position:relative ;
+	bottom: 0;
+	opacity: 0.3;
 }
